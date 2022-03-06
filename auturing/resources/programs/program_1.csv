@@ -1,0 +1,12 @@
+#input[ ]	#output[:]	« Implémentation wikipedia d’une fonction inutile qui duplique les premiers 1 »			
+old_state	tape_read	tape_write	move_tape	new_state	return
+e1	0				True
+e1	1	0	1	e2	False
+e2	1	1	1	e2	False
+e2	0	0	1	e3	False
+e3	1	1	1	e3	False
+e3	0	1	-1	e4	False
+e4	1	1	-1	e4	False
+e4	0	0	-1	e5	False
+e5	1	1	-1	e5	False
+e5	0	1	1	e1	False

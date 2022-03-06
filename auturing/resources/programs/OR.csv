@@ -1,0 +1,10 @@
+Input = 0:2	Output = -1 :	Entry = debut	Reçoit deux bits en entrée. Renvoie 1 si OR est vrai et 0 sinon. 			
+old_state	tape_read	tape_write	move_tape	new_state	return	Comments
+e1	0		1	premier_false		Le premier bit est 0
+e1	1		2	istrue		Le premier bit est 1
+premier_false	0		1	isfalse		Le premier bit était 0, le second aussi → C’est Faux
+premier_false	1		1	istrue		Le premier bit était 0, mais pas le second → C’est Vrai
+isfalse	0	0			True	On retourne faux
+isfalse	1	0			True	On retourne faux
+istrue	0	1			True	On retourne vrai
+istrue	1	1			True	On retourne vrai
