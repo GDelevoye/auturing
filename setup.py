@@ -7,7 +7,7 @@ import sys
 setup(
     name='auturing',
     version='0.1.a',
-    description="From an example of function definition, actually builds this function as a turing machine",
+    description="A simple turing machine in python3",
     long_description="Enter your project description here (long)",
     author='DELEVOYE Guillaume',
     author_email="delevoye.guillaume@gmail.com",
